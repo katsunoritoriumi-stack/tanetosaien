@@ -61,9 +61,9 @@ const Home = () => {
           </RevealOnScroll>
 
           <div className="gallery-grid">
-           <RevealOnScroll delay={0.1} className="gallery-item large">
-  <div className="gallery-img-wrap" style={{ overflow: 'visible' }}>
-    <img src="/vegetable_set.jpg" alt="鮮やかな野菜のギャラリー" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+          <RevealOnScroll delay={0.1} className="gallery-item large">
+  <div className="gallery-img-wrap" style={{ overflow: 'hidden', borderRadius: '8px' }}>
+    <img src="/vegetable_set.jpg" alt="鮮やかな野菜のギャラリー" style={{ width: '100%', height: 'auto', objectFit: 'cover', display: 'block' }} />
   </div>
   <div className="gallery-info">
     <h3>季節の野菜セット</h3>
