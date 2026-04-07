@@ -7,7 +7,7 @@ const Home = () => {
     <div className="home">
       {/* Hero Section */}
       <section className="hero">
-        <div className="hero-bg" style={{ backgroundImage: 'url("/hero.png")' }}></div>
+        <div className="hero-bg" style={{ backgroundImage: 'url("/hero.jpg")' }}></div>
         <div className="hero-overlay"></div>
         <div className="hero-content container">
           <RevealOnScroll className="hero-text-wrap" delay={0.2}>
