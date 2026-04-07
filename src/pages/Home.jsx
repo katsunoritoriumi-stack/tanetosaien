@@ -61,17 +61,17 @@ const Home = () => {
           </RevealOnScroll>
 
           <div className="gallery-grid">
-            <RevealOnScroll delay={0.1} className="gallery-item large">
-              <div className="gallery-img-wrap">
-                <img src="/vegetable_set.jpg" alt="鮮やかな野菜のギャラリー" />
-              </div>
-              <div className="gallery-info">
-                <h3>季節の野菜セット</h3>
-                <p>夏から秋にかけての7月下旬～10月下旬頃までが発送可能期間となります。玉ねぎ、ジャガイモ各種、ズッキーニ、モロッコインゲンなど、その日の収穫から10種類前後を箱に詰めてお送りします。</p>
-                <p className="mt-4"><strong>【栽培野菜をザックリ紹介】</strong><br />
-                トマト、茄子、ピーマン、ジャガイモ、スイスチャード・空芯菜などの葉物、インゲン豆、シシトウ、パプリカ、ニンニク、カボチャ、玉ねぎ、コールラビ、ビーツ、きゅうり、ズッキーニ、サツマイモ、落花生、人参、大根、ヤーコン、キクイモ…他</p>
-              </div>
-            </RevealOnScroll>
+           <RevealOnScroll delay={0.1} className="gallery-item large">
+  <div className="gallery-img-wrap" style={{ overflow: 'visible' }}>
+    <img src="/vegetable_set.jpg" alt="鮮やかな野菜のギャラリー" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+  </div>
+  <div className="gallery-info">
+    <h3>季節の野菜セット</h3>
+    <p>夏から秋にかけての7月下旬～10月下旬頃までが発送可能期間となります。玉ねぎ、ジャガイモ各種、ズッキーニ、モロッコインゲンなど、その日の収穫から10種類前後を箱に詰めてお送りします。</p>
+    <p className="mt-4"><strong>【栽培野菜をザックリ紹介】</strong><br />
+    トマト、茄子、ピーマン、ジャガイモ、スイスチャード・空芯菜などの葉物、インゲン豆、シシトウ、パプリカ、ニンニク、カボチャ、玉ねぎ、コールラビ、ビーツ、きゅうり、ズッキーニ、サツマイモ、落花生、人参、大根、ヤーコン、キクイモ、きのこ類…他</p>
+  </div>
+</RevealOnScroll>
 
             <RevealOnScroll delay={0.3} className="gallery-item">
               <div className="gallery-img-wrap">
@@ -85,7 +85,7 @@ const Home = () => {
 
             <RevealOnScroll delay={0.5} className="gallery-item">
               <div className="gallery-img-wrap">
-                <img src="/rhubarb_dressing.png" alt="Rhubarb Dressing" />
+                <img src="/rhubarb_dressing.jpg" alt="Rhubarb Dressing" />
               </div>
               <div className="gallery-info">
                 <h3>ルバーブドレッシング</h3>
