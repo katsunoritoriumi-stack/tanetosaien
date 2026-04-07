@@ -97,20 +97,22 @@ const Home = () => {
       </section>
 
       {/* Farmers Section */}
-      <section className="farmers section">
-        <div className="container">
-          <RevealOnScroll className="farmers-grid">
-            <div className="farmers-visual">
-              <img src="/farmers.jpg" alt="生産者" className="farmers-img" />
-            </div>
-            <div className="farmers-text">
-              <span className="en-text section-label">Our Farmers</span>
-              <h2 className="section-title">生産者のご紹介</h2>
-              <p>八ヶ岳山麓の大自然の中で、土と向き合いながら野菜を育てています。無農薬・無化学肥料にこだわり、種の選択から収穫まで、丁寧に手をかけた野菜をお届けしています。</p>
-            </div>
-          </RevealOnScroll>
-        </div>
-      </section>
+      {/* Farmers Section */}
+<section className="farmers section">
+  <div className="container">
+    <RevealOnScroll className="farmers-grid">
+      <div className="farmers-visual">
+        <img src="/farmers.jpg" alt="生産者" className="farmers-img" />
+      </div>
+      <div className="farmers-text">
+        <span className="en-text section-label">Our Farmers</span>
+        <h2 className="section-title">生産者のご紹介</h2>
+        <p className="farmers-name">小林邦彦・小林みと子</p>
+        <p>八ヶ岳山麓の大自然の中で、土と向き合いながら野菜を育てています。無農薬・無化学肥料にこだわり、種の選択から収穫まで、丁寧に手をかけた野菜をお届けしています。</p>
+      </div>
+    </RevealOnScroll>
+  </div>
+</section>
 
       {/* Information / Action Section */}
       <section className="information section">
