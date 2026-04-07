@@ -45,7 +45,7 @@ const Home = () => {
               </div>
             </div>
             <div className="philosophy-visual">
-              <img src="/philosophy.png" alt="土づくりに関わる両手" className="visual-box" />
+              <img src="/philosophy.jpg" alt="土づくりに関わる両手" className="visual-box" />
             </div>
           </RevealOnScroll>
         </div>
@@ -63,13 +63,13 @@ const Home = () => {
           <div className="gallery-grid">
             <RevealOnScroll delay={0.1} className="gallery-item large">
               <div className="gallery-img-wrap">
-                <img src="/gallery.png" alt="鮮やかな野菜のギャラリー" />
+                <img src="/vegetable_set.jpg" alt="鮮やかな野菜のギャラリー" />
               </div>
               <div className="gallery-info">
                 <h3>季節の野菜セット</h3>
                 <p>夏から秋にかけての7月下旬～10月下旬頃までが発送可能期間となります。玉ねぎ、ジャガイモ各種、ズッキーニ、モロッコインゲンなど、その日の収穫から10種類前後を箱に詰めてお送りします。</p>
                 <p className="mt-4"><strong>【栽培野菜をザックリ紹介】</strong><br />
-                トマト、茄子、ピーマン、ジャガイモ、スイスチャード・空芯菜などの葉物、インゲン豆、シシトウ、パプリカ、ニンニク、カボチャ、玉ねぎ、コールラビ、ビーツ、きゅうり、ズッキーニ、サツマイモ、落花生、人参、大根、ヤーコン、きのこ類、キクイモ…他</p>
+                トマト、茄子、ピーマン、ジャガイモ、スイスチャード・空芯菜などの葉物、インゲン豆、シシトウ、パプリカ、ニンニク、カボチャ、玉ねぎ、コールラビ、ビーツ、きゅうり、ズッキーニ、サツマイモ、落花生、人参、大根、ヤーコン、キクイモ…他</p>
               </div>
             </RevealOnScroll>
 
@@ -93,6 +93,22 @@ const Home = () => {
               </div>
             </RevealOnScroll>
           </div>
+        </div>
+      </section>
+
+      {/* Farmers Section */}
+      <section className="farmers section">
+        <div className="container">
+          <RevealOnScroll className="farmers-grid">
+            <div className="farmers-visual">
+              <img src="/farmers.jpg" alt="生産者" className="farmers-img" />
+            </div>
+            <div className="farmers-text">
+              <span className="en-text section-label">Our Farmers</span>
+              <h2 className="section-title">生産者のご紹介</h2>
+              <p>八ヶ岳山麓の大自然の中で、土と向き合いながら野菜を育てています。無農薬・無化学肥料にこだわり、種の選択から収穫まで、丁寧に手をかけた野菜をお届けしています。</p>
+            </div>
+          </RevealOnScroll>
         </div>
       </section>
 
