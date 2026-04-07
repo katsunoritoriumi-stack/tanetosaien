@@ -316,6 +316,14 @@
   object-fit: cover;
   display: block;
 }
+.farmers-name {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--color-text);
+  letter-spacing: 0.1em;
+  border-left: 3px solid var(--color-accent);
+  padding-left: 1rem;
+}
 
 @media (max-width: 768px) {
   .farmers-grid {
