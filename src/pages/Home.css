@@ -295,6 +295,19 @@
   flex-direction: column;
   gap: 1.5rem;
 }
+/* 野菜セット画像をカード幅いっぱいに */
+.gallery-item.large .gallery-img-wrap {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.gallery-item.large .gallery-img-wrap img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
 
 @media (max-width: 768px) {
   .farmers-grid {
