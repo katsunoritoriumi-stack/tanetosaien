@@ -100,3 +100,23 @@
     z-index: 1001;
   }
 }
+.brand-jp {
+  color: #ffffff;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.6);
+  font-weight: 700;
+}
+
+.brand-en {
+  color: rgba(255, 255, 255, 0.85);
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.navbar.scrolled .brand-jp {
+  color: var(--color-text);
+  text-shadow: none;
+}
+
+.navbar.scrolled .brand-en {
+  color: var(--color-accent);
+  text-shadow: none;
+}
