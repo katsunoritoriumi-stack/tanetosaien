@@ -1,6 +1,6 @@
 import RevealOnScroll from '../components/RevealOnScroll';
 import './Contact.css';
-import { Mail, MapPin, Store } from 'lucide-react';
+import { Mail, Store } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -43,18 +43,6 @@ const Contact = () => {
             </div>
           </RevealOnScroll>
 
-          <RevealOnScroll delay={0.5} className="contact-card border-card card-full">
-            <div className="card-icon">
-              <MapPin size={32} />
-            </div>
-            <h3>農地のご案内</h3>
-            <div className="farm-info">
-              <p>種to菜園（たねとさいえん）</p>
-              <p>〒391-0111</p>
-              <p>長野県諏訪郡原村18082-8</p>
-              <p className="mt-4">担当: 小林</p>
-            </div>
-          </RevealOnScroll>
         </div>
       </div>
     </div>
